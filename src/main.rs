@@ -13,7 +13,7 @@ fn main() -> Result<()> {
     let window = WindowBuilder::new()
         .with_title("Vulkan Tutorial (Rust)")
         .with_inner_size(LogicalSize::new(1024, 768))
-        .build(&event_loop);
+        .build(&event_loop)?;
 
     // App
 
